@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.wrap{
+	width: 100%;
+	height: 1220px;
+	background-color: darkgrey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.head{
+	width: 750px;
+	height: 700px;
+	background-color: lightgrey;
+	border: 4px solid black;
+	border-radius: 11px;
+}
+.texta{
+	width: 650px;
+	height: 150px;
+	margin-left: 50px;
+	margin-top: 21px;
+	border: 4px solid black;
+	border-radius: 11px;
+}
+.btn input{
+	width: 125px;
+	height: 90px;
+	margin-left: 50px;
+	margin-top: 10px;
+	font-size: 30px;
+	border-radius: 7px;
+	border: 3px solid black;
+}
+.btn input:hover{
+	background-color: black;
+	color: white;
+	border: 3px solid white;
+}
